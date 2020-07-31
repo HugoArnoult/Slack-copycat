@@ -1,0 +1,17 @@
+.chat-card {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.chat-card img {
+  width: 42px;
+  height: 42px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-right: 16px;
+}
+
+.chat-card-text {
+  flex-grow: 1;
+}

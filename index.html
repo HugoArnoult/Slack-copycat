@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Slack prototype</title>
+    <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Varela">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <!-- TODO: Slack copycat markup -->
+    <div class="main-container">
+
+      <!-- Sidebars Container -->
+      <div class="sidebars-container">
+        <h2 class="sidebars-title active">LW</h2>
+        <h2 class="sidebars-title">H7</h2>
+      </div>
+
+      <!-- Channels Container -->
+      <div class="channels-container">
+        
+        <h1>Le Wagon</h1>
+        <div class="user">
+          <div class="badges"></div>
+          <p>Hugo Arnoult</p>
+        </div>
+
+        <div class="list-title">
+          <h3>Channels</h3>
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="list-items">
+          <ul>
+            <li>
+              <i class="fab fa-slack-hash"></i>
+              <p class="ml-2">general 📌</p>
+            </li>
+            <li>
+              <i class="fab fa-slack-hash"></i>
+              <p class="ml-2">help 🙏🏻</p>
+            </li>
+            <li class="active">
+              <i class="fab fa-slack-hash"></i>
+              <p class="ml-2">design 🎨</p>
+            </li>
+            <li>
+              <i class="fas fa-lock"></i>
+              <p class="ml-2">friday-drinks 🍺</p>
+            </li>
+            <li>
+              <i class="fas fa-lock"></i>
+              <p class="ml-2">climbing 🧗🏻‍♀️</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="list-title">
+          <h3>Direct Messages</h3>
+          <i class="fas fa-plus"></i>
+        </div>
+        
+        <div class="user">
+          <div class="badges"></div>
+          <p>Jeff Bezos</p>
+        </div>
+
+        <div class="user">
+          <div class="badges"></div>
+          <p>Elon Musk</p>
+        </div>
+
+        <div class="user">
+          <div class="badges inactive"></div>
+          <p>Mark Zuckerberg</p>
+        </div>
+
+        <div class="user">
+          <div class="badges inactive"></div>
+          <p>Seb Saunier</p>
+        </div>
+
+      </div>
+      
+      <!-- Messages Container -->
+      <div class="messages-container">
+        <div class="messages-container-header pt-3 border-bottom">
+          <h1><i class="fab fa-slack-hash"></i> design</h1>
+        </div>
+
+        <div class="chat-container">
+          <div class="chat-card">
+            <img src="https://kitt.lewagon.com/placeholder/users/HugoArnoult" alt="Hugo Arnoult">
+            <div class="chat-card-text">
+              <p><strong>Hugo Arnoult</strong></p>
+              <p>Hey everyone 👋 We’ve just launched a new Le Wagon <strong>UI Kit</strong> 🚀 👉 <a href="https://uikit.lewagon.com/">https://uikit.lewagon.com/</a>.</p>
+            </div>
+          </div>
+          <div class="chat-card">
+            <img src="https://d1fmx1rbmqrxrr.cloudfront.net/cnet/optim/i/edit/2019/01/jeff-bezos-amazon-divorce-big__w770.jpg" alt="Jeff Bezos">
+            <div class="chat-card-text">
+              <p><strong>Jeff Bezos</strong></p>
+              <p>Yay! 🤘</p>
+            </div>
+          </div>
+          <div class="chat-card">
+            <img src="https://cdn.futura-sciences.com/buildsv6/images/largeoriginal/d/9/a/d9a1058910_50163142_elon-musk1.jpg" alt="Elon Musk">
+            <div class="chat-card-text">
+              <p><strong>Elon Musk 🚀</strong></p>
+              <p>That looks great, why don't you add a .card like on dribbble with a cool hover effect? 😎</p>
+            </div>
+          </div>
+          <div class="chat-card">
+            <img src="https://www.boursedirect.fr/media/articles/afp/les-geants-de-la-tech-sous-le-feu-des-projecteurs-politiques/mark-zuckerberg-le-patron-de-facebook-reconnait-que-les-lois-qui-gouvernent-i.jpg" alt="Mark Zuckerberg">
+            <div class="chat-card-text">
+              <p><strong>Mark Zuckerberg</strong></p>
+              <p>Does it work on Linux? 🤓</p>
+            </div>
+          </div>
+          <div class="chat-card">
+            <img src="https://kitt.lewagon.com/placeholder/users/ssaunier" alt="Seb Saunier">
+            <div class="chat-card-text">
+              <p><strong>Séb Saunier</strong></p>
+              <p class="mb-1">Hi designers! A little tutorial I’ve made (french only, 🇬🇧 version coming soon!!!) covering:</p>
+              <p class="mb-1">- UX data (GA, Hotjar) and how to use it to re-think your sitemap</p>
+              <p class="mb-1">Advanced UX workflow (Sketch > Invision > Abstract)</p>
+              <p class="mb-1">👉 <a href="https://kitt.lewagon.com/knowledge/tutorials/ux_advanced">https://kitt.lewagon.com/knowledge/tutorials/ux_advanced</a>.</p>
+              <p>Hope you’ll enjoy 📺 !</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="input-container pt-3 border-top">
+          <form>
+            <div class="form-row align-items-center">
+              <div class="col-11">
+                <input type="text" class="form-control mb-2" placeholder="Type your message...">
+              </div>
+              <div class="col-1">
+                <button type="submit" class="btn btn-primary mb-2 w-100">Send</button>
+              </div>
+            </form>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Including Bootstrap JS (with its Popper.js / jQuery dependency) so that dynamic components work -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

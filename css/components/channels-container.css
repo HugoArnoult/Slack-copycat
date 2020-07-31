@@ -1,0 +1,61 @@
+.channels-container {
+  height: 100vh;
+  width: 200px;
+  background-color: #4B3949;
+  padding: 16px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.user p {
+  color: #ffffff;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 22px;
+  padding-bottom: 4px;
+}
+
+.channels-container h1 {
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.list-title {
+  margin-top: 24px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-title h3 {
+  font-weight: bolder;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.list-title i {
+  color: #ffffff;
+}
+
+.list-items ul {
+  list-style: none;
+  padding-left: 0px;
+  color: #ffffff;
+}
+.list-items li {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+.list-items .active {
+  opacity: 1;
+}
+
+
+
+

@@ -1,0 +1,24 @@
+.messages-container {
+  height: 100vh;
+  flex-grow: 1;
+  background-color:#ffffff;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.messages-container-header {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding-bottom: 8px;
+}
+
+.messages-container-header h1 > i {
+  font-size: 20px;
+}
+
+.chat-container {
+  padding: 16px 0;
+  flex-grow: 1;
+}

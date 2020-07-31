@@ -1,0 +1,12 @@
+.badges {
+  width: 8px;
+  height: 8px;
+  background-color: #1FE5BD;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.badges.inactive {
+  background-color: #ffffff;
+  opacity: 0.5;
+}
